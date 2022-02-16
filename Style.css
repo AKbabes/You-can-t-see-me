@@ -1,0 +1,67 @@
+*{
+    margin: 10;
+    padding: 20;
+}
+body{
+    background-image: url(./Images/Bg.jpg);
+    background-size: cover;
+
+    height: 100vh;
+    background-repeat: repeat;
+}
+h1{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: left;
+}
+p{
+    color: rgb(136, 150, 85);
+    font-size: 20px;
+    position: relative;
+    word-spacing: 5px;
+    left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(179, 109, 76);
+    text-align: center;
+    line-height: 30px;
+    text-shadow: 10px;
+}
+.table-elements{
+    border-collapse: collapse;
+    font-family:fantasy;
+    margin: 25px, 0;
+    min-width: 400px;
+    color:rgb(212, 182, 146);
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgb(92, 83, 60);
+}
+.table-elements thead tr{
+    background-color: rgb(212, 212, 212);
+    color: black;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;  
+}
+.table-elements td{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    font-weight:bold
+}
+.table-elements th,
+.table-elements td{
+    padding: 6px 13px;
+}
+.table-elements tbody tr{
+    border-bottom: 2px solid rgb(136, 134, 130);
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
