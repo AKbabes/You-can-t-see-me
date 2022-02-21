@@ -2,6 +2,40 @@
     margin: 10;
     padding: 20;
 }
+header{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: black; */
+    font-size: 16px;
+    font-weight:bold;
+}
+nav{
+    position:static;
+    float:right;
+    background: rgb(192, 192, 192);
+    border-radius: 36px;
+    width: 500px;
+    height: 36px;
+}
+    
+nav a{
+    text-decoration: none;
+    padding: 3px 20px;
+    line-height: 26px;
+    display:inline-block;
+}
+.search{
+    float: right;
+    padding: 5px 5px;
+    
+}
+.search:hover{
+    color: red;
+}
+nav a:hover{
+    background-color: rgb(59, 175, 175);
+    border-radius: 36px;
+    height: 30px;
+}
 body{
     background-image: url(./Images/Bg.jpg);
     background-size: cover;
@@ -48,6 +82,9 @@ form{
     text-align: center;
     border-radius: 5px 5px 0 0;
     box-shadow: 0 0 20px rgb(92, 83, 60);
+}
+.table-elements tr:hover{
+    color: antiquewhite;
 }
 .table-elements thead tr{
     background-color: rgb(212, 212, 212);
