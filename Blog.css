@@ -3,9 +3,17 @@
     padding: 0;
     font-family: sans-serif;
 }
-.hero{
+body{
     background-image:url(/Images/colorbg.jpg);
     background-size: cover;
+    height: 100vh;
+    background-repeat: repeat;
+    display: flex;
+
+}
+.hero{
+    /* background-image:url(/Images/colorbg.jpg);
+    background-size: cover; */
     height: 100vh;
     background-repeat: repeat;
 }
@@ -21,4 +29,56 @@ nav{
     cursor: pointer;
     margin-left:1em;
     /* box-shadow: 0 0 10px 10px chocolate; */
+}
+.elements{
+    margin-right: 2%;
+    position:fixed;
+    float:right;
+    position: relative;
+    background: rgb(192, 192, 192);
+    border-radius: 36px;
+    width: 500px;
+    height: 36px;
+}
+    
+nav a{
+    text-decoration: none;
+    padding: 3px 20px;
+    line-height: 26px;
+    display:inline-block;
+}
+.search{    
+    float: right;
+    padding: 5px 5px;
+    
+}
+.search:hover{
+    color: red;
+}
+nav a:hover{
+    background-color: rgb(59, 175, 175);
+    border-radius: 36px;
+    height: 30px;
+}
+.box{
+    justify-content: center;
+    width: 90%;
+    margin-top: 8em;
+    margin-right: 8em;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 10px;
+}
+.leftbox{
+    border:solid 3px black;
+    background-image: url(/Images/whitwbg.jpg);
+    /* border-color: black; */
+}
+.h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.rightbox{
+    border:solid 3px black;
+    background-image: url(/Images/whitwbg.jpg);
 }
