@@ -24,11 +24,11 @@ img{
     align-items: center;
     flex-direction: column;
     padding: 5px;
-    background-color:#D89216;
+    background-color:#b38c4a;
     border-bottom: 3px solid rgb(43, 19, 25);
 }
 .blogHead span{
-    color: brown;
+    color: rgb(139, 11, 11);
     font-size: 25px;
     font-weight: bold;
 }
@@ -110,4 +110,127 @@ starting,p{
 }
 .crimage img:hover{
     box-shadow: 0px 0px 4px 3px rgb(99, 12, 23);
+}
+.crbutton a{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(142, 24, 211);
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    padding: 3px 5px;
+}
+.crbutton a:hover{
+    background-color: #D89216;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+/* Copy fromm cr7 */
+
+#Messi{
+    background-color: #222831;
+}
+#Messi:hover{
+    box-shadow: 0px 0px 10px 5px white;
+}
+.lm10,h3{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 1em;
+}
+.tableformessi table{
+    border-collapse: collapse;
+    min-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tableformessi td{
+    border: 1px dotted rgb(184, 28, 93);
+    color:aliceblue;
+    padding: 6px 13px;
+}
+.tableformessi tr:hover{
+    box-shadow: 0px 0px 3px 2px rgb(122, 34, 34);
+}
+.messiimage {
+    margin-top: 2em;
+    justify-content: center;
+    display: flex;
+}
+.messiimage img{
+    width: 30%;
+    box-shadow: 0 0 5px 2px rgb(17, 11, 43);
+}
+.messiimage img:hover{
+    box-shadow: 0px 0px 4px 3px rgb(99, 12, 23);
+}
+.lmbutton a{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(142, 24, 211);
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    padding: 3px 5px;
+}
+.lmbutton a:hover{
+    background-color: #D89216;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+
+#Neymar{
+    background-color: #222831;
+}
+#Neymar:hover{
+    box-shadow: 0px 0px 10px 5px white;
+}
+.njr,h3{
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 1em;
+}
+.tablefornjr table{
+    border-collapse: collapse;
+    min-width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tablefornjr td{
+    border: 1px dotted rgb(184, 28, 93);
+    color:aliceblue;
+    padding: 6px 13px;
+}
+.tablefornjr tr:hover{
+    box-shadow: 0px 0px 3px 2px rgb(122, 34, 34);
+}
+.njrimage {
+    margin-top: 2em;
+    justify-content: center;
+    display: flex;
+}
+.njrimage img{
+    width: 30%;
+    box-shadow: 0 0 5px 2px rgb(17, 11, 43);
+}
+.njrimage img:hover{
+    box-shadow: 0px 0px 4px 3px rgb(99, 12, 23);
+}
+.njrbutton a{
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(142, 24, 211);
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    padding: 3px 5px;
+}
+.njrbutton a:hover{
+    background-color: #D89216;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
