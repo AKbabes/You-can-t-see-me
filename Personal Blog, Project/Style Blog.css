@@ -10,8 +10,10 @@ a{
 ul{
     list-style: none;
 }
-body{
-
+#messi ,p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:normal;
+    line-height: 25px;
 }
 img{
     width: 140px;
@@ -24,7 +26,7 @@ img{
     align-items: center;
     flex-direction: column;
     padding: 5px;
-    background-color:#b38c4a;
+    background-color:#b19528;
     border-bottom: 3px solid rgb(43, 19, 25);
 }
 .blogHead span{
@@ -48,7 +50,7 @@ img{
 starting,p{
     margin: 5px;
     padding: 10px;
-    color: aliceblue;
+    color: rgb(223, 223, 223);
 }
 .nmrimg {
     justify-content: center;
@@ -95,6 +97,7 @@ starting,p{
     border: 1px dotted rgb(184, 28, 93);
     color:aliceblue;
     padding: 6px 13px;
+    font-size: 14px;
 }
 .tableforcr tr:hover{
     box-shadow: 0px 0px 3px 2px rgb(122, 34, 34);
@@ -150,6 +153,7 @@ starting,p{
     border: 1px dotted rgb(184, 28, 93);
     color:aliceblue;
     padding: 6px 13px;
+    font-size: 14px;
 }
 .tableformessi tr:hover{
     box-shadow: 0px 0px 3px 2px rgb(122, 34, 34);
@@ -166,6 +170,7 @@ starting,p{
 .messiimage img:hover{
     box-shadow: 0px 0px 4px 3px rgb(99, 12, 23);
 }
+
 .lmbutton a{
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(142, 24, 211);
@@ -205,6 +210,7 @@ starting,p{
     border: 1px dotted rgb(184, 28, 93);
     color:aliceblue;
     padding: 6px 13px;
+    font-size: 14px;
 }
 .tablefornjr tr:hover{
     box-shadow: 0px 0px 3px 2px rgb(122, 34, 34);
