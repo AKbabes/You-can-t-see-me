@@ -107,7 +107,7 @@ header {
   border-radius: 50%;
   align-items: center;
   justify-content: center;
-  border: 2px solid #1A5F7A;
+  border: 2px solid #000000;
   transition: all 0.3s ease;
 }
 
@@ -117,7 +117,7 @@ header {
 
 ul li:is(:hover, .active) {
   color: #fff;
-  background: #5372F0;
+  background: #410c69;
 }
 
 .buttons button {
@@ -128,7 +128,7 @@ ul li:is(:hover, .active) {
   cursor: pointer;
   padding: 13px 22px;
   border-radius: 30px;
-  background: #086E7D;
+  background: #660a39;
   box-shadow: 10px 9px -5 12px black;
 }
 
